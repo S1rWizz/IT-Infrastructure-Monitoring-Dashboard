@@ -1,8 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .center {
     text-align: center;
 }
 .body{
-    background-color: bisque;
+    background-color: aliceblue;
+}
+
+.box{
+    width: 320px;
+    height: 250px;
+    background-color:aqua;
+    border-radius: 16px;
+    position: relative;
+}
+
+.true-center{
+    display: grid;
+    place-items: center;
+    height: 100%;
 }
 
 #main-title{
@@ -10,3 +29,26 @@
     margin-top: 30px;
 }
 
+#total{
+    position: absolute;
+    left:250px;
+    top: 200px
+}
+
+#online{
+    position: absolute;
+    left:600px;
+    top: 200px
+}
+
+#offline{
+    position: absolute;
+    left:950px;
+    top: 200px
+}
+
+#warning{
+    position: absolute;
+    left:1300px;
+    top: 200px
+}
